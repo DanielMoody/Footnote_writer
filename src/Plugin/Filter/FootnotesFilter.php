@@ -13,7 +13,7 @@ use Drupal\filter\FilterProcessResult;
  *   id = "filter_footnotes",
  *   title = @Translation("Footnotes ([fn: ...])"),
  *   description = @Translation("Converts [fn: ...] into numbered footnotes appended to the end."),
- *   type = Drupal\filter\Plugin\FilterInterface::TYPE_MARKUP_LANGUAGE
+ *   type = Drupal\filter\Plugin\FilterInterface::TYPE_TRANSFORM_IRREVERSIBLE
  * )
  */
 final class FootnotesFilter extends FilterBase {
