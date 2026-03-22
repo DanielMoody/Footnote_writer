@@ -1,0 +1,6 @@
+name: 'footnote writer'
+type: module
+description: 'footnote writer'
+core_version_requirement: ^9 || ^10 || ^11
+package: Custom
+configure: footnote_writer.settings
