@@ -1,0 +1,21 @@
+{
+  "name": "CMS_Alchemy/footnote-writer",
+  "description": "A lightweight Drupal filter that converts [fn: ...] into numbered footnotes.",
+  "type": "drupal-module",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/DanielMoody/Footnote_writer",
+  "authors": [
+    {
+      "name": "Dan M"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "drupal/core": "^9 || ^10 || ^11"
+  },
+  "extra": {
+    "drupal": {
+      "type": "module"
+    }
+  }
+}
