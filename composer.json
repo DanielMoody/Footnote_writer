@@ -1,5 +1,5 @@
 {
-  "name": "CMS_Alchemy/footnote-writer",
+  "name": "cms_alchemy/footnote-writer",
   "description": "A lightweight Drupal filter that converts [fn: ...] into numbered footnotes.",
   "type": "drupal-module",
   "license": "GPL-2.0-or-later",
