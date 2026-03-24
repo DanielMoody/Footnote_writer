@@ -1,0 +1,28 @@
+<?php
+
+declare(strict_types=1);
+
+use Drupal\filter\Entity\FilterFormat;
+/** * Implements hook_install(). */
+
+function footnote_writer_install(): void {
+  foreach (['basic_html', 'full_html'] as $format_id) {
+    $format = \Drupal\filter\Entity\FilterFormat::load($format_id);
+
+    if (!$format) {
+      continue;
+    }
+
+    $filters = $format->filters();
+
+    if (!$filters->has('filter_footnotes') || !$filters->get('filter_footnotes')->status) {
+      $format->setFilterConfig('filter_footnotes', [
+        'status' => TRUE,
+        'weight' => 10,
+        'settings' => [],
+      ]);
+
+      $format->save();
+    }
+  }
+}
