@@ -54,7 +54,7 @@ On installation, the filter is automatically enabled for:
 * Full HTML
 
 ## Limitations
-Nested footnotes are not supported
-Complex structures inside footnotes may not render as expected
-Interaction with other filters depends on filter order
-No UI configuration is provided
+* Nested footnotes are not supported
+* Complex structures inside footnotes may not render as expected
+* Interaction with other filters depends on filter order
+* No UI configuration
