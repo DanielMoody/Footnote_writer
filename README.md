@@ -1,22 +1,22 @@
-#Footnote Writer
+# Footnote Writer
 
 A lightweight Drupal filter that converts simple inline footnote markers into numbered footnotes appended to the end of the content.
 
-##Overview
+## Overview
 
 Footnote Writer provides a minimal syntax for adding footnotes directly inside text without dealing with HTML or manual numbering.
 
 It is designed to:
 
-*reduce friction while writing
-*avoid manual footnote management
-*integrate cleanly with Drupal’s text format system
+* reduce friction while writing
+* avoid manual footnote management
+* integrate cleanly with Drupal’s text format system
 
 This module does one thing:
 
-*transform [fn: ...] into structured, numbered footnotes
+* transform [fn: ...] into structured, numbered footnotes
 
-##Usage
+## Usage
 
 Write footnotes inline using:
 
@@ -50,10 +50,10 @@ drush en footnote_writer
 
 On installation, the filter is automatically enabled for:
 
-*Basic HTML
-*Full HTML
+* Basic HTML
+* Full HTML
 
-##Limitations
+## Limitations
 Nested footnotes are not supported
 Complex structures inside footnotes may not render as expected
 Interaction with other filters depends on filter order
