@@ -15,7 +15,9 @@ It is designed to:
 This module does one thing:
 
 * transform [fn: ...] into structured, numbered footnotes
+Install via Composer:
 
+`composer require cms-alchemy/footnote-writer`
 ## Usage
 
 Write footnotes inline using:
