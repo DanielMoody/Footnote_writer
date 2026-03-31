@@ -18,7 +18,10 @@ This module does one thing:
 ## Installation
 Install via Composer:
 
-`composer require cms-alchemy/footnote-writer`
+```
+composer require cms-alchemy/footnote-writer
+drush en footnote_writer
+```
 ## Usage
 
 Write footnotes inline using:
