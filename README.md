@@ -22,6 +22,13 @@ This module does one thing:
 composer require cms-alchemy/footnote-writer
 drush en footnote_writer
 ```
+
+On enabling, the filter is automatically enabled for:
+
+* Basic HTML
+* Full HTML
+
+  
 ## Usage
 
 Write footnotes inline using:
@@ -48,16 +55,6 @@ This is a sentence.¹
 Another sentence.²
 1. First note.
 2. Second note.
-##Installation
-
-Enable the module as usual:
-
-drush en footnote_writer
-
-On installation, the filter is automatically enabled for:
-
-* Basic HTML
-* Full HTML
 
 ## Limitations
 * Nested footnotes are not supported
